@@ -1,0 +1,109 @@
+/* General Styling */
+body {
+    background-color: #f8f9fa;
+  }
+  
+  /* Sidebar Styling */
+  .sidebar {
+    width: 250px;
+    flex-shrink: 0;
+  }
+  
+  .sidebar h4 {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 15px 0;
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #007bff;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  /* Dashboard */
+  .container-fluid {
+    margin-left: 260px; /* To match the sidebar width */
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+
+  /* Modal Header Styling */
+.modal-header {
+    border-bottom: none;
+  }
+
+  .modal-header h5 {
+    font-size: 1.25rem;
+    letter-spacing: 0.5px;
+  }
+  
+  /* Card Styling */
+  .card {
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .icon-container {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .card-text strong {
+    font-weight: 600;
+    margin-right: 5px;
+    color: #495057;
+  }
+  
+  /* Modal Footer Styling */
+  .modal-footer {
+    border-top: none;
+    padding-top: 1rem;
+  }
+  
+  .modal-footer .btn {
+    border-radius: 20px;
+    font-weight: 500;
+    padding: 0.5rem 1.5rem;
+  }
+  
+  /* Shadow Enhancements */
+  .shadow-lg {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .shadow-sm {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Button Close Customization */
+  .btn-close-white {
+    filter: invert(1);
+  }
+  
+  
